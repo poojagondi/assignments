@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #85d5e4;
+  color: white;
+  background-image: url(https://preview.colorlib.com/theme/academia/images/bg_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  font-family: "Roboto", Arial, sans-serif;
+}
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 1000px; */
+  margin: 0 auto;
+  padding: 25px 0;
+  font-size: large;
+}
+@media (min-width: 576px) {
+  .nav1,
+  .hero {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .nav1,
+  .hero {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .nav1,
+  .hero {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav1,
+  .hero {
+    max-width: 1140px;
+  }
+}
+.header-left h2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-left h2 a:hover {
+  color: #1eb2a6;
+  transition: all 0.5s ease;
+}
+.header-right {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  gap: 25px;
+  color: #1eb2a6;
+  font-size: 20px;
+}
+.socials a {
+  text-decoration: none;
+  color: #1eb2a6;
+}
+
+.socials a:hover {
+  color: whitesmoke;
+  transition: all 0.35s ease;
+}
+.header-badge {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-badge > i {
+  font-size: 38px;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0px 10px;
+  height: 80px;
+  background: rgba(232, 243, 242, 0.103);
+}
+
+.left-stuff {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.left-stuff a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  /* height: 400px; */
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* max-width: 1000px; */
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.content {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 40px; */
+}
+
+.content > h1 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+.cert {
+  border: none;
+  background: #1eb2a6;
+  color: white;
+  padding: 10px;
+  position: relative;
+  height: 100%;
+  z-index: 1;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.cert::before {
+  content: "";
+
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  top: 0;
+  left: -25px;
+  transform: skew(-20deg);
+  background: #1eb2a6;
+  z-index: -1;
+}
+
+.two-buttons {
+  padding: 40px 0px;
+}
+
+.button1 {
+  background-color: #1eb2a6;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  height: 50px;
+  width: 200px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.button2 {
+  background-color: white;
+  color: #1eb2a6;
+  border: none;
+  text-transform: uppercase;
+  height: 50px;
+  width: 200px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.second-part {
+  height: 800px;
+  width: 100%;
+  /* border: solid black 2px; */
+  background-color: whitesmoke;
+  display: flex;
+}
+
+.second-chick {
+  height: 500 px;
+  width: 50%;
+  /* border: solid 2px red; */
+  background-image: url("https://preview.colorlib.com/theme/academia/images/about.jpg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0px 50px;
+}
+
+.idkman {
+  height: 500px;
+  width: 50%;
+  /* border: solid 2px red; */
+  color: black;
+  /* margin: 50px 0px; */
+  padding: 0px 80px 0px 0px;
+}
+
+.this-thing {
+  color: #1eb2a6;
+  font-weight: 600;
+  padding: 50px 0px 20px 0px;
+}
+
+.idkman > h1 {
+  font-size: 50px;
+  padding: 0px 30px 20px 0px;
+}
+
+.first-div {
+  padding: 20px 0px;
+  display: flex;
+  gap: 30px;
+  /* border: solid 2px red; */
+  align-items: center;
+  letter-spacing: 0.5px;
+}
+.first-div > i {
+  font-size: 60px;
+  padding: 0px 0px 0px 20px;
+  /* color: #1eb2a6; */
+}
+.fd-content {
+  gap: 30px;
+  font-size: 20px;
+  /* line-height: 1.8; */
+  font-weight: 400;
+}
+.fd-content > p {
+  padding: 0px 0px 20px 0px;
+  font-size: 20px;
+}
+.grey {
+  color: grey;
+}
+.grey:hover {
+  color: white;
+}
+
+.xyz {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+}
+.this-shit {
+  padding: 20px 0px;
+}
+
+.first-div:hover {
+  background-color: #1eb2a6;
+  color: white;
+  transition: all 0.35s ease-in-out;
+}
+
+.second-div {
+  padding: 50px 0px;
+}
+
+.third-div {
+  padding: 50px 0px;
+}
+
+.third-part {
+  height: 200px;
+  width: 100%;
+  /* border: solid 2px red; */
+  background-image: url("https://preview.colorlib.com/theme/academia/images/bg_3.jpg.webp");
+  opacity: 0.9;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex: column;
+  justify-content: space-evenly;
+  /* margin: 0px 50px; */
+}
+
+.one {
+  display: flex;
+  /* padding: 0px 0px 80px 100px; */
+  align-items: center;
+  font-weight: 400;
+  gap: 20px;
+  font-size: larger;
+  color: rgb(255, 255, 255);
+}
+.one > i {
+  font-size: 60px;
+}
+.two {
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth-part {
+  height: 900px;
+  width: 100%;
+  background-color: rgb(243, 236, 236);
+  color: black;
+
+  padding: 150px 0px 0px 0px;
+}
+.abc > p {
+  padding: 0px 0px 20px 0px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.sop {
+  height: 500px;
+  width: 80%;
+  /* border: solid 2px red; */
+  margin: auto;
+}
+.top {
+  display: flex;
+  height: 500px;
+  width: 300px;
+  /* border: solid 2px red; */
+  
+}
